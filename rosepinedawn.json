@@ -2,7 +2,7 @@
 	id: 'd353806e-3fcb-499c-8219-d29ba9b36d0a',
 	base: 'light',
 	name: ' Rosé Pine Dawn',
-  description: 'Soho vibes for Misskey, dawn edition',
+	description: 'Soho vibes for Misskey, dawn edition',
 	props: {
 		X2: ':darken<2<@panel',
 		X3: 'rgba(255, 255, 255, 0.05)',
