@@ -24,9 +24,16 @@
 
 ## Gallery
 
+### Rosé Pine
+
 ![Screenshot_2022-01-28-05-56-10_2560x1440](https://user-images.githubusercontent.com/44733677/151642875-e1c0cf21-6e2c-470f-b499-664024fd8c2b.png)
 
-![Screenshot_2022-01-28-05-56-46_2560x1440](https://user-images.githubusercontent.com/44733677/151642889-db91e75f-0740-422a-8360-8049338b7c47.png)
+### Rosé Pine Moon
+
+
+
+![Screenshot_2022-01-28-06-17-53_2560x1440](https://user-images.githubusercontent.com/44733677/151643503-4f74ac07-fa42-427e-9662-85b9e6ce300d.png)
+
 
 ### Rosé Pine Dawn
 
