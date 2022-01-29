@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for Misskey</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,23 +13,28 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Open Settings
+2. Under `Client settings`, click `Themes`
+3. Click `Install Theme`
+4. Under `Theme code`, paste in the contents of either `rosepine.json`, `rosepinemoon.json`, or `rosepinedawn.json`
+5. Click `Install`
+6. Go back to `Themes` page
+7. If you installed `rosepine.json` or `rosepinemoon.json`, select `Rosé Pine` or Rosé `Pine Moon` under `Theme to use in Dark Mode`. If you installed `rosepinedawn.json`, select `Rosé Pine Dawn` under `Theme to use in Light Mode`.
+8. I'd reccomend installing *at least* one dark variant and dawn. That way, you get Rosé Pine in both Dark and Light mode!
 
 ## Gallery
 
-![Rosé Pine with App](assets/template.png)
+![Screenshot_2022-01-28-05-56-10_2560x1440](https://user-images.githubusercontent.com/44733677/151642875-e1c0cf21-6e2c-470f-b499-664024fd8c2b.png)
+
+![Screenshot_2022-01-28-05-56-46_2560x1440](https://user-images.githubusercontent.com/44733677/151642889-db91e75f-0740-422a-8360-8049338b7c47.png)
+
+### Rosé Pine Dawn
+
+![Screenshot_2022-01-28-05-57-25_2560x1440](https://user-images.githubusercontent.com/44733677/151642904-2bfd9687-bc07-4ac4-9526-6eb77dc77fd2.png)
+
+![Screenshot_2022-01-28-05-59-13_2560x1440](https://user-images.githubusercontent.com/44733677/151642955-36564e6b-ce02-4b30-a8e2-63b11680f67b.png)
+
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Format repo description as "Soho vibes for App"
-- Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [ThatOneCalculator](https://t1c.dev)
