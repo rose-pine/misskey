@@ -26,20 +26,25 @@
 
 ### Rosé Pine
 
-![Screenshot_2022-01-28-05-56-10_2560x1440](https://user-images.githubusercontent.com/44733677/151642875-e1c0cf21-6e2c-470f-b499-664024fd8c2b.png)
+![Screenshot_2022-01-28-06-23-42_2560x1440](https://user-images.githubusercontent.com/44733677/151643655-4f5b4e02-cd37-45c4-a58f-fb61e89c7d17.png)
+
+![Screenshot_2022-01-28-06-22-03_2560x1440](https://user-images.githubusercontent.com/44733677/151643607-277ae961-d690-4b09-9071-5f690e0a866e.png)
+
 
 ### Rosé Pine Moon
 
+![Screenshot_2022-01-28-06-24-34_2560x1440](https://user-images.githubusercontent.com/44733677/151643677-61f5e8f6-a77e-41e9-803a-101ca62e663a.png)
 
 
-![Screenshot_2022-01-28-06-17-53_2560x1440](https://user-images.githubusercontent.com/44733677/151643503-4f74ac07-fa42-427e-9662-85b9e6ce300d.png)
+![Screenshot_2022-01-28-06-22-40_2560x1440](https://user-images.githubusercontent.com/44733677/151643622-33e9cb97-901e-4c13-8022-08c71b0f932a.png)
 
 
 ### Rosé Pine Dawn
 
-![Screenshot_2022-01-28-05-57-25_2560x1440](https://user-images.githubusercontent.com/44733677/151642904-2bfd9687-bc07-4ac4-9526-6eb77dc77fd2.png)
+![Screenshot_2022-01-28-06-24-16_2560x1440](https://user-images.githubusercontent.com/44733677/151643669-9b18723a-8d55-4681-bed3-60a8a153ea4e.png)
 
-![Screenshot_2022-01-28-05-59-13_2560x1440](https://user-images.githubusercontent.com/44733677/151642955-36564e6b-ce02-4b30-a8e2-63b11680f67b.png)
+
+![Screenshot_2022-01-28-06-23-01_2560x1440](https://user-images.githubusercontent.com/44733677/151643639-2dd01a93-d053-411f-abb0-c18b7329d635.png)
 
 
 ## Thanks to
