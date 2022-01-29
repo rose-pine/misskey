@@ -40,7 +40,7 @@
 		renote: '#229e82',
 		shadow: 'rgba(0, 0, 0, 0.3)',
 		divider: 'rgba(255, 255, 255, 0.1)',
-		hashtag: '#3e8fb0',
+		hashtag: '#ea9a97',
 		mention: '@accent',
 		modalBg: 'rgba(0, 0, 0, 0.5)',
 		success: '#ebbcba',
