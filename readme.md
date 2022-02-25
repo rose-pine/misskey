@@ -16,7 +16,7 @@
 1. Open Settings
 2. Under `Client settings`, click `Themes`
 3. Click `Install Theme`
-4. Under `Theme code`, paste in the contents of either `rosepine.json`, `rosepinemoon.json`, or `rosepinedawn.json`
+4. Under `Theme code`, paste in the contents of either `d-rosepine.json5`, `d-rosepinemoon.json5`, or `l-rosepinedawn.json5`
 5. Click `Install`
 6. Go back to `Themes` page
 7. If you installed `rosepine.json` or `rosepinemoon.json`, select `Rosé Pine` or Rosé `Pine Moon` under `Theme to use in Dark Mode`. If you installed `rosepinedawn.json`, select `Rosé Pine Dawn` under `Theme to use in Light Mode`.
