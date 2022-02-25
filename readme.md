@@ -26,9 +26,6 @@
 
 ### Instance admin
 
-If you're running from source:
-
-
 1.
 ```
 cd misskey # (or wherever your misskey folder is)
@@ -36,8 +33,15 @@ git clone https://github.com/rose-pine/misskey.git rosepinethemes
 mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
-2. **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
-3. Build and restart
+2. (Optional) in `packages/client/src/store.ts`, apply the following diff to set the themes as default:
+```diff
+-		lightTheme: require('@/themes/l-light.json5') as Theme,
+-		darkTheme: require('@/themes/d-dark.json5') as Theme,
++		lightTheme: require('@/themes/l-rosepinedawn.json5') as Theme,
++		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
+```
+3. **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
+4. Build and restart
 
 ## Gallery
 
