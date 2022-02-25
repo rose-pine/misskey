@@ -13,6 +13,8 @@
 
 ## Usage
 
+### User
+
 1. Open Settings
 2. Under `Client settings`, click `Themes`
 3. Click `Install Theme`
@@ -21,6 +23,19 @@
 6. Go back to `Themes` page
 7. If you installed `rosepine.json` or `rosepinemoon.json`, select `Rosé Pine` or Rosé `Pine Moon` under `Theme to use in Dark Mode`. If you installed `rosepinedawn.json`, select `Rosé Pine Dawn` under `Theme to use in Light Mode`.
 8. I'd reccomend installing *at least* one dark variant and dawn. That way, you get Rosé Pine in both Dark and Light mode!
+
+### Instance admin
+
+If you're running from source:
+1.
+```
+cd misskey # (or wherever your misskey folder is)
+git clone https://github.com/rose-pine/misskey.git rosepinethemes
+mv ./rosepinethemes/* ./packages/client/src/themes/
+rm -rf ./rosepinethemes
+```
+2. **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
+3. Build and restart
 
 ## Gallery
 
