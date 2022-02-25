@@ -41,11 +41,15 @@ rm -rf ./rosepinethemes
 
 ## Gallery
 
+### As featured on https://stop.voring.me
+
 ### Rosé Pine
 
 ![Screenshot_2022-01-28-06-23-42_2560x1440](https://user-images.githubusercontent.com/44733677/151643655-4f5b4e02-cd37-45c4-a58f-fb61e89c7d17.png)
 
 ![Screenshot_2022-01-28-06-22-03_2560x1440](https://user-images.githubusercontent.com/44733677/151643607-277ae961-d690-4b09-9071-5f690e0a866e.png)
+
+![image](https://user-images.githubusercontent.com/44733677/155676591-7bb075da-3ea0-4a2a-b70e-7cca85f89ffb.png)
 
 
 ### Rosé Pine Moon
