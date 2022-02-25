@@ -68,6 +68,9 @@ rm -rf ./rosepinethemes
 ![Screenshot_2022-01-28-06-23-01_2560x1440](https://user-images.githubusercontent.com/44733677/151643639-2dd01a93-d053-411f-abb0-c18b7329d635.png)
 
 
+![image](https://user-images.githubusercontent.com/44733677/155676896-f940aa0a-bac6-4550-853e-3b8ad471f018.png)
+
+
 ## Thanks to
 
 - [ThatOneCalculator](https://t1c.dev)
