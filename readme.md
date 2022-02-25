@@ -31,7 +31,7 @@ If you're running from source:
 ```
 cd misskey # (or wherever your misskey folder is)
 git clone https://github.com/rose-pine/misskey.git rosepinethemes
-mv ./rosepinethemes/* ./packages/client/src/themes/
+mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
 2. **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
