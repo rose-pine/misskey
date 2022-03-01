@@ -29,6 +29,7 @@
 Pre-[ba4ef23](https://github.com/misskey-dev/misskey/commit/ba4ef23d6b426f5e54d48d9519d597ca4e8b020f)
 <details>
 1.
+    
 ```
 cd misskey # (or wherever your misskey folder is)
 git clone https://github.com/rose-pine/misskey.git rosepinethemes
