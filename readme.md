@@ -35,6 +35,7 @@ git clone https://github.com/rose-pine/misskey.git rosepinethemes
 mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
+    
 2. In `packages/client/src/store.ts`, apply the following diff to set the themes as default:
 ```diff
 -		lightTheme: require('@/themes/l-light.json5') as Theme,
@@ -47,8 +48,11 @@ rm -rf ./rosepinethemes
 Post-[ba4ef23](https://github.com/misskey-dev/misskey/commit/ba4ef23d6b426f5e54d48d9519d597ca4e8b020f)
 <details>
 1. Go to Control Panel > General
+    
 2. Under インスタンスデフォルトのライトテーマ (first option), paste the contents of `l-rosepinedawn.json5`
+    
 3. Under インスタンスデフォルトのダークテーマ (second option), paste the contents of `d-rosepine.json5`
+    
 </details>
 
 
