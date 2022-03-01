@@ -43,12 +43,15 @@ rm -rf ./rosepinethemes
 +		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
 ```
     </details>
+
 Post-[ba4ef23](https://github.com/misskey-dev/misskey/commit/ba4ef23d6b426f5e54d48d9519d597ca4e8b020f)
 <details>
 1. Go to Control Panel > General
 2. Under インスタンスデフォルトのライトテーマ (first option), paste the contents of `l-rosepinedawn.json5`
 3. Under インスタンスデフォルトのダークテーマ (second option), paste the contents of `d-rosepine.json5`
 </details>
+
+
 - **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
 - Build and restart
 
