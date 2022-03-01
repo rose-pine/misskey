@@ -25,35 +25,36 @@
 8. I'd reccomend installing *at least* one dark variant and dawn. That way, you get Rosé Pine in both Dark and Light mode!
 
 ### Instance admin
-
-Pre-[ba4ef23](https://github.com/misskey-dev/misskey/commit/ba4ef23d6b426f5e54d48d9519d597ca4e8b020f)
-<details>
-1.
-    
+ 
 ```
 cd misskey # (or wherever your misskey folder is)
 git clone https://github.com/rose-pine/misskey.git rosepinethemes
 mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
+
+
+Pre-[ba4ef23](https://github.com/misskey-dev/misskey/commit/ba4ef23d6b426f5e54d48d9519d597ca4e8b020f)
+
+<details>
     
-2. In `packages/client/src/store.ts`, apply the following diff to set the themes as default:
+In `packages/client/src/store.ts`, apply the following diff to set the themes as default:
 ```diff
 -		lightTheme: require('@/themes/l-light.json5') as Theme,
 -		darkTheme: require('@/themes/d-dark.json5') as Theme,
 +		lightTheme: require('@/themes/l-rosepinedawn.json5') as Theme,
 +		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
 ```
-    </details>
+</details>
 
+    
 Post-[ba4ef23](https://github.com/misskey-dev/misskey/commit/ba4ef23d6b426f5e54d48d9519d597ca4e8b020f)
+
 <details>
-1. Go to Control Panel > General
     
-2. Under インスタンスデフォルトのライトテーマ (first option), paste the contents of `l-rosepinedawn.json5`
-    
-3. Under インスタンスデフォルトのダークテーマ (second option), paste the contents of `d-rosepine.json5`
-    
+- Go to Control Panel > General
+- Under インスタンスデフォルトのライトテーマ (first option), paste the contents of `l-rosepinedawn.json5`
+- Under インスタンスデフォルトのダークテーマ (second option), paste the contents of `d-rosepine.json5`
 </details>
 
 
