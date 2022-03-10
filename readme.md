@@ -25,18 +25,29 @@
 8. I'd reccomend installing *at least* one dark variant and dawn. That way, you get Rosé Pine in both Dark and Light mode!
 
 ### Instance admin
+
+
+v12.108.0 and above
+
+<details>
+    
+- Go to Control Panel > General
+- Under "Instance-wide default light theme", paste the contents of `l-rosepinedawn.json5`
+- Under "Instance-wide default light theme", paste the contents of `d-rosepine.json5`
+    
+</details>
+
  
+v12.107.0 and below
+
+<details>
+
 ```
 cd misskey # (or wherever your misskey folder is)
 git clone https://github.com/rose-pine/misskey.git rosepinethemes
 mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
-
-
-Pre-12.108.0
-
-<details>
     
 In `packages/client/src/store.ts`, apply the following diff to set the themes as default:
 ```diff
@@ -46,17 +57,6 @@ In `packages/client/src/store.ts`, apply the following diff to set the themes as
 +		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
 ```
 </details>
-
-    
-Post-12.108.0
-
-<details>
-    
-- Go to Control Panel > General
-- Under "Instance-wide default light theme", paste the contents of `l-rosepinedawn.json5`
-- Under "Instance-wide default light theme", paste the contents of `d-rosepine.json5`
-</details>
-
 
 - **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
 - Build and restart
