@@ -27,7 +27,7 @@
 ### Instance admin
 ###### Set as default theme
 
-v12.108.0 and above
+#### v12.108.0 and above
 
 <details>
     
@@ -35,22 +35,25 @@ v12.108.0 and above
 - Under "Instance-wide default light theme", paste the contents of `l-rosepinedawn.json5`
 - Under "Instance-wide default dark theme", paste the contents of `d-rosepine.json5`
 
-To add as a pickable theme without making it the default theme, follow the "v12.107.0 and below" instructions, but omit the patch step
+To add as a pickable theme without making it the default theme, follow the "v12.107.0 and below" instructions, 
+**but skip step 2!**
 
 </details>
 
  
-v12.107.0 and below
+#### v12.107.0 and below
 
 <details>
 
+1.
 ```
 cd misskey # (or wherever your misskey folder is)
 git clone https://github.com/rose-pine/misskey.git rosepinethemes
 mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
-    
+  
+2. 
 Apply the following diff to `packages/client/src/store.ts`:
 ```diff
 -		lightTheme: require('@/themes/l-light.json5') as Theme,
@@ -59,8 +62,8 @@ Apply the following diff to `packages/client/src/store.ts`:
 +		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
 ```
     
-- **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
-- Build and restart
+3. **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
+4. Build and restart
     
 </details>
     
