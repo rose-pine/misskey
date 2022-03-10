@@ -25,21 +25,15 @@
 8. I'd reccomend installing *at least* one dark variant and dawn. That way, you get Rosé Pine in both Dark and Light mode!
 
 ### Instance admin
-###### Set as default theme
 
 #### v12.108.0 and above
-
-<details>
     
 - Go to Control Panel > General
 - Under "Instance-wide default light theme", paste the contents of `l-rosepinedawn.json5`
 - Under "Instance-wide default dark theme", paste the contents of `d-rosepine.json5`
 
-To add as a pickable theme without making it the default theme, follow the "v12.107.0 and below" instructions, 
+To add as a pickable theme *without* making it the default, follow the "v12.107.0 and below" instructions, 
 **but skip step 2!**
-
-</details>
-
  
 #### v12.107.0 and below
 
