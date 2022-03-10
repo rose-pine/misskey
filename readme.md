@@ -25,7 +25,7 @@
 8. I'd reccomend installing *at least* one dark variant and dawn. That way, you get Rosé Pine in both Dark and Light mode!
 
 ### Instance admin
-
+###### Set as default theme
 
 v12.108.0 and above
 
@@ -33,8 +33,10 @@ v12.108.0 and above
     
 - Go to Control Panel > General
 - Under "Instance-wide default light theme", paste the contents of `l-rosepinedawn.json5`
-- Under "Instance-wide default light theme", paste the contents of `d-rosepine.json5`
-    
+- Under "Instance-wide default dark theme", paste the contents of `d-rosepine.json5`
+
+To add as a pickable theme without making it the default theme, follow the "v12.107.0 and below" instructions, but omit the patch step
+
 </details>
 
  
@@ -49,18 +51,19 @@ mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
 rm -rf ./rosepinethemes
 ```
     
-In `packages/client/src/store.ts`, apply the following diff to set the themes as default:
+Apply the following diff to `packages/client/src/store.ts`:
 ```diff
 -		lightTheme: require('@/themes/l-light.json5') as Theme,
 -		darkTheme: require('@/themes/d-dark.json5') as Theme,
 +		lightTheme: require('@/themes/l-rosepinedawn.json5') as Theme,
 +		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
 ```
-</details>
-
+    
 - **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
 - Build and restart
-
+    
+</details>
+    
 ## Gallery
 
 ### As featured on https://stop.voring.me
