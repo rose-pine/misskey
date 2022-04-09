@@ -71,7 +71,7 @@
 		panelHeaderBg: ':lighten<3<@panel',
 		panelHeaderFg: '@fg',
 		buttonGradateA: '@accent',
-		buttonGradateB: ':hue<20<@accent',
+		buttonGradateB: '#ebbcba',
 		htmlThemeColor: '@bg',
 		panelHighlight: ':lighten<3<@panel',
 		listItemHoverBg: 'rgba(255, 255, 255, 0.03)',
