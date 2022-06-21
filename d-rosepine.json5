@@ -1,8 +1,8 @@
 {
-	id: '3cdfd635-4d5e-4d06-9ba3-20f123f0999a',
+	id: '3cdfd635-4d5e-4d06-9ba3-20f123f0999b',
 	base: 'dark',
 	desc: 'Soho vibes for Misskey',
-	name: 'Rosé Pine',
+	name: 'Rosé Pine v3',
 	props: {
 		X2: ':darken<2<@panel',
 		X3: 'rgba(255, 255, 255, 0.05)',
@@ -54,7 +54,7 @@
 		navActive: '@accent',
 		accentedBg: ':alpha<0.15<@accent',
 		fgOnAccent: '#26233a',
-		infoWarnBg: '#eb6f92',
+		infoWarnBg: '#26233a',
 		infoWarnFg: '#f6c177',
 		navHoverFg: ':lighten<17<@fg',
 		dateLabelFg: '@fg',
