@@ -26,40 +26,17 @@
 
 ### Instance admin
 
-#### v12.108.0 and above
+#### Calckey
+
+[Calckey](codeberg.org/thatonecalculator/calckey) is a fork of upstream Misskey that includes all 3 Rosé Pine themes out of the box and themes some non-themable elements with Rosé Pine.
+
+#### Stock Misskey
+
+Must be running v12.108.0 and above
     
 - Go to Control Panel > General
 - Under "Instance-wide default light theme", paste the contents of `l-rosepinedawn.json5`
 - Under "Instance-wide default dark theme", paste the contents of `d-rosepine.json5`
-
-To add as a pickable theme *without* making it the default, follow the "v12.107.0 and below" instructions, 
-**but skip step 2!**
- 
-#### v12.107.0 and below
-
-<details>
-
-1.
-```
-cd misskey # (or wherever your misskey folder is)
-git clone https://github.com/rose-pine/misskey.git rosepinethemes
-mv ./rosepinethemes/*.json5 ./packages/client/src/themes/
-rm -rf ./rosepinethemes
-```
-  
-2. 
-Apply the following diff to `packages/client/src/store.ts`:
-```diff
--		lightTheme: require('@/themes/l-light.json5') as Theme,
--		darkTheme: require('@/themes/d-dark.json5') as Theme,
-+		lightTheme: require('@/themes/l-rosepinedawn.json5') as Theme,
-+		darkTheme: require('@/themes/d-rosepine.json5') as Theme,
-```
-    
-3. **Increase the package number in `package.json`!** Otherwise, users won't be able to see the themes
-4. Build and restart
-    
-</details>
     
 ## Gallery
 
