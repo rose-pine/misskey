@@ -28,7 +28,7 @@
 
 #### Calckey
 
-[Calckey](codeberg.org/thatonecalculator/calckey) is a fork of upstream Misskey that includes all 3 Rosé Pine themes out of the box and themes some non-themable elements with Rosé Pine.
+[Calckey](https://codeberg.org/thatonecalculator/calckey) is a fork of upstream Misskey that includes all 3 Rosé Pine themes out of the box and themes some non-themable elements with Rosé Pine.
 
 #### Stock Misskey
 
